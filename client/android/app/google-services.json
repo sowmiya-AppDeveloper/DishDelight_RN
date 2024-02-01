@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699884961147",
+    "project_id": "recipe-app-61d97",
+    "storage_bucket": "recipe-app-61d97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699884961147:android:123c677ab0584920d951de",
+        "android_client_info": {
+          "package_name": "com.demoreducer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPgNgsVCLAtfUuiWlf31XcSRpHOjo3niY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

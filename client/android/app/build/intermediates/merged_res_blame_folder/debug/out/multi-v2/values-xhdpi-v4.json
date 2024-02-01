@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.demoreducer.app-mergeDebugResources-104:/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/bi1466/.gradle/caches/transforms-3/03dd13122389012f7fd5e12f04580caa/transformed/jetified-payments-core-20.34.4/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

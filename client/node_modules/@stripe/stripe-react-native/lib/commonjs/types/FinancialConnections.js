@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.FinancialConnectionsSheetError=void 0;var FinancialConnectionsSheetError;exports.FinancialConnectionsSheetError=FinancialConnectionsSheetError;(function(FinancialConnectionsSheetError){FinancialConnectionsSheetError["Failed"]="Failed";FinancialConnectionsSheetError["Canceled"]="Canceled";})(FinancialConnectionsSheetError||(exports.FinancialConnectionsSheetError=FinancialConnectionsSheetError={}));
+//# sourceMappingURL=FinancialConnections.js.map
