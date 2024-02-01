@@ -1,5 +1,5 @@
-import {useNavigation} from '@react-navigation/native';
-import React, {useEffect, useState} from 'react';
+import { useNavigation } from "@react-navigation/native";
+import React, { useEffect, useState } from "react";
 import {
   BackHandler,
   Dimensions,
@@ -11,18 +11,19 @@ import {
   StyleSheet,
   Text,
   View,
-} from 'react-native';
-import {useDispatch} from 'react-redux';
-import {LOG, getItem} from '../../Common/utils';
-import LinearGradient from 'react-native-linear-gradient';
-import {colors} from '../../Common/colors';
-import {ProgressBar} from 'react-native-paper';
-import {signIn} from '../../Redux/AuthAction';
-import {getSingleRecipeRequest, initSpinner} from '../../Redux/ApiAction';
+} from "react-native";
 
-const win = Dimensions.get('window');
+import { useDispatch } from "react-redux";
+import { LOG, getItem } from "../../Common/utils";
+import LinearGradient from "react-native-linear-gradient";
+import { colors } from "../../Common/colors";
+import { ProgressBar } from "react-native-paper";
+import { signIn } from "../../Redux/AuthAction";
+import { getSingleRecipeRequest, initSpinner } from "../../Redux/ApiAction";
 
-const Application = props => {
+const win = Dimensions.get("window");
+
+const Application = (props) => {
   const Dispatch = useDispatch();
   const navigation = useNavigation();
   useEffect(() => {
@@ -31,10 +32,10 @@ const Application = props => {
 
   const appWithoutBackground = async () => {
     const clickedUrl = await Linking.getInitialURL();
-    LOG('urlurlurl', clickedUrl);
+    LOG("urlurlurl", clickedUrl);
 
-    const containId = clickedUrl.includes('id');
-    const containType = clickedUrl.includes('type');
+    const containId = clickedUrl.includes("id");
+    const containType = clickedUrl.includes("type");
 
     if (containId && containType) {
       var regex = /[?&]([^=#]+)=([^&#]*)/g,
@@ -43,7 +44,7 @@ const Application = props => {
       while ((match = regex.exec(clickedUrl))) {
         params[match[1]] = match[2];
       }
-      LOG('after items splitted :', params);
+      LOG("after items splitted :", params);
       let jsonData = {
         recipeId: params.id,
       };
@@ -53,60 +54,60 @@ const Application = props => {
   };
   // UseEffect hook will work only at initial render
   useEffect(() => {
-    if (Platform.OS === 'android') {
+    if (Platform.OS === "android") {
       PermissionsAndroid.requestMultiple([
         PermissionsAndroid.PERMISSIONS.CAMERA,
         PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
         PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
         PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS,
-      ]).then(result => {
+      ]).then((result) => {
         if (
-          result['android.permission.CAMERA'] &&
-          result['android.permission.READ_EXTERNAL_STORAGE'] &&
-          result['android.permission.WRITE_EXTERNAL_STORAGE'] &&
-          result['android.permission.POST_NOTIFICATIONS'] === 'granted'
+          result["android.permission.CAMERA"] &&
+          result["android.permission.READ_EXTERNAL_STORAGE"] &&
+          result["android.permission.WRITE_EXTERNAL_STORAGE"] &&
+          result["android.permission.POST_NOTIFICATIONS"] === "granted"
         ) {
-          LOG('Permissions_granted');
+          LOG("Permissions_granted");
           this.setState({
             permissionsGranted: true,
           });
         } else if (
-          result['android.permission.CAMERA'] ||
-          result['android.permission.READ_EXTERNAL_STORAGE'] ||
-          result['android.permission.WRITE_EXTERNAL_STORAGE'] ||
-          result['android.permission.POST_NOTIFICATIONS'] === 'never_ask_again'
+          result["android.permission.CAMERA"] ||
+          result["android.permission.READ_EXTERNAL_STORAGE"] ||
+          result["android.permission.WRITE_EXTERNAL_STORAGE"] ||
+          result["android.permission.POST_NOTIFICATIONS"] === "never_ask_again"
         ) {
-          LOG('Permissions_denied');
+          LOG("Permissions_denied");
           // BackHandler.exitApp();
         } else {
-          LOG('PERMISSION ELSE CASE HANDLE HERE');
+          LOG("PERMISSION ELSE CASE HANDLE HERE");
         }
       });
     }
     // hardware back button handler
 
     const backHandler = BackHandler.addEventListener(
-      'hardwareBackPress',
-      handleBackButtonClick,
+      "hardwareBackPress",
+      handleBackButtonClick
     );
 
     ////////////////////////////////////////////////////
 
-    getItem('userDetails').then(userDetails => {
+    getItem("userDetails").then((userDetails) => {
       if (userDetails) {
         LOG(
-          '------------userDetails Found Auto Login--------- : ' + userDetails,
+          "------------userDetails Found Auto Login--------- : " + userDetails
         );
 
-        LOG('userDetails Found Auto Login : ' + userDetails);
+        LOG("userDetails Found Auto Login : " + userDetails);
         var cred = JSON.parse(userDetails);
 
         Dispatch(signIn(cred, false));
         // Dispatch(initSpinner());
       } else {
-        LOG('No userDetails FoundMAYBE');
+        LOG("No userDetails FoundMAYBE");
         setTimeout(() => {
-          navigation.navigate('signIn');
+          navigation.navigate("signIn");
         }, 2000);
       }
     });
@@ -124,17 +125,17 @@ const Application = props => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require('../../../Asserts/background3.2.png')}
+        source={require("../../../Asserts/background3.2.png")}
         style={styles.backgroundImage}>
         <View style={styles.overlay}>
           <Text
             style={{
               color: colors.white,
               fontSize: 40,
-              fontWeight: 'bold',
+              fontWeight: "bold",
               marginHorizontal: 20,
               marginVertical: 50,
-              textAlign: 'center',
+              textAlign: "center",
             }}>
             𝑳𝒆𝒕'𝒔 𝒇𝒊𝒏𝒅 𝒇𝒐𝒐𝒅 𝒓𝒆𝒄𝒊𝒑𝒆
           </Text>
@@ -155,7 +156,7 @@ const Application = props => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: "column",
     backgroundColor: colors.white,
   },
   progressbarStyle: {
@@ -165,11 +166,11 @@ const styles = StyleSheet.create({
   logo: {
     width: win.width - 20,
     height: 200,
-    alignSelf: 'center',
+    alignSelf: "center",
     marginHorizontal: 20,
   },
   headerText: {
-    textAlign: 'center',
+    textAlign: "center",
     //fontFamily: textFontFaceMedium,
     color: colors.white,
     fontSize: 35,
@@ -178,13 +179,13 @@ const styles = StyleSheet.create({
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    justifyContent: 'space-between',
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    justifyContent: "space-between",
   },
   backgroundImage: {
-    width: '100%',
-    height: '100%',
-    resizeMode: 'cover',
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
   },
 });
 
