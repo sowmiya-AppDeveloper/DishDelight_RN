@@ -9,47 +9,47 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:12:3-75
-11-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:12:20-73
+11-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:12:3-75
+11-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:12:20-73
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:3:5-67
-12-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:3:22-64
+12-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:3:22-64
 13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-13-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:6:2-73
-13-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:6:19-70
+13-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:6:2-73
+13-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:6:19-70
 14    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-14-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:7:4-74
-14-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:7:21-71
+14-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:7:4-74
+14-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:7:21-71
 15    <uses-permission
-15-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:8:5-107
+15-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:8:5-107
 16        android:name="android.permission.READ_EXTERNAL_STORAGE"
-16-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:8:22-77
+16-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:8:22-77
 17        android:maxSdkVersion="32" />
-17-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:8:78-104
+17-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:8:78-104
 18    <uses-permission
-18-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:9:6-109
+18-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:9:6-109
 19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-19-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:9:23-79
+19-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:9:23-79
 20        android:maxSdkVersion="29" />
-20-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:9:80-106
+20-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:9:80-106
 21    <uses-permission android:name="android.permission.CAMERA" />
-21-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:11:3-62
-21-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:11:20-60
+21-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:11:3-62
+21-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:11:20-60
 22    <uses-permission android:name="android.permission.POST_NOTIFICATION" />
-22-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:13:1-71
-22-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:13:18-69
+22-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:13:1-71
+22-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:13:18-69
 23    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-23-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:14:1-74
-23-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:14:18-72
+23-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:14:1-74
+23-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:14:18-72
 24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 24-->[com.facebook.flipper:flipper:0.182.0] /home/bi1466/.gradle/caches/transforms-3/426f122c987f1f036bd238635db2dd0e/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
 24-->[com.facebook.flipper:flipper:0.182.0] /home/bi1466/.gradle/caches/transforms-3/426f122c987f1f036bd238635db2dd0e/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
 25    <uses-permission android:name="android.permission.WAKE_LOCK" />
-25-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
-25-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+25-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+25-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
 26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
-26-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-26-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+26-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+26-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 27    <queries>
 27-->[com.stripe:payments-core:20.34.4] /home/bi1466/.gradle/caches/transforms-3/03dd13122389012f7fd5e12f04580caa/transformed/jetified-payments-core-20.34.4/AndroidManifest.xml:8:5-12:15
 28
@@ -61,11 +61,11 @@
 32        <intent>
 32-->[com.stripe:financial-connections:20.34.4] /home/bi1466/.gradle/caches/transforms-3/8f8d488a8a74609edee2443332afb8af/transformed/jetified-financial-connections-20.34.4/AndroidManifest.xml:13:9-17:18
 33            <action android:name="android.intent.action.VIEW" />
-33-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:17-69
-33-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:25-66
+33-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:17-69
+33-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:25-66
 34
 35            <data android:scheme="http" />
-35-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+35-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 36        </intent> <!-- Needs to be explicitly declared on Android R+ -->
 37        <package android:name="com.google.android.apps.maps" />
 37-->[com.google.android.gms:play-services-maps:18.0.2] /home/bi1466/.gradle/caches/transforms-3/5d04e33d32e2176578768ed506846402/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
@@ -135,179 +135,179 @@
 66-->[app.notifee:core:202108261754] /home/bi1466/.gradle/caches/transforms-3/41f88022672af6ca771c4ba622ba77f7/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-35
 67
 68    <application
-68-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:17:5-46:19
+68-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:17:5-46:19
 69        android:name="com.demoreducer.MainApplication"
-69-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:18:7-38
+69-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:18:7-38
 70        android:allowBackup="false"
-70-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:22:7-34
+70-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:22:7-34
 71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 71-->[androidx.core:core:1.10.0] /home/bi1466/.gradle/caches/transforms-3/753001a23edb44d4b80c69fed6465742/transformed/core-1.10.0/AndroidManifest.xml:28:18-86
 72        android:debuggable="true"
 73        android:icon="@mipmap/ic_launcher"
-73-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:20:7-41
+73-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:20:7-41
 74        android:label="@string/app_name"
-74-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:19:7-39
+74-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:19:7-39
 75        android:roundIcon="@mipmap/ic_launcher_round"
-75-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:21:7-52
+75-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:21:7-52
 76        android:theme="@style/AppTheme"
-76-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:23:7-38
+76-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:23:7-38
 77        android:usesCleartextTraffic="true" >
-77-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:8:9-44
+77-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:8:9-44
 78        <activity
-78-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:11:9-111
+78-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:11:9-111
 79            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-79-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:11:19-83
+79-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:11:19-83
 80            android:exported="false" />
-80-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:11:84-108
+80-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:11:84-108
 81
 82        <meta-data
-82-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:12:11-14:28
+82-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:12:11-14:28
 83            android:name="com.google.android.gms.wallet.api.enabled"
-83-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:13:5-61
+83-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:13:5-61
 84            android:value="true" />
-84-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/debug/AndroidManifest.xml:14:5-25
+84-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/debug/AndroidManifest.xml:14:5-25
 85
 86        <activity
-86-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:24:7-45:18
+86-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:24:7-45:18
 87            android:name="com.demoreducer.MainActivity"
-87-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:25:9-37
+87-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:25:9-37
 88            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-88-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:27:9-118
+88-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:27:9-118
 89            android:exported="true"
-89-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:30:9-32
+89-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:30:9-32
 90            android:label="@string/app_name"
-90-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:26:9-41
+90-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:26:9-41
 91            android:launchMode="singleTask"
-91-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:28:9-40
+91-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:28:9-40
 92            android:windowSoftInputMode="adjustResize" >
-92-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:29:9-51
+92-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:29:9-51
 93            <intent-filter>
-93-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:31:9-34:25
+93-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:31:9-34:25
 94                <action android:name="android.intent.action.MAIN" />
-94-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:32:13-65
-94-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:32:21-62
+94-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:32:13-65
+94-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:32:21-62
 95
 96                <category android:name="android.intent.category.LAUNCHER" />
-96-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:33:13-73
-96-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:33:23-70
+96-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:33:13-73
+96-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:33:23-70
 97            </intent-filter>
 98            <!-- for deeplinking -->
 99
 100            <intent-filter android:autoVerify="true" >
-100-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:37:5-44:30
-100-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:37:20-45
+100-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:37:5-44:30
+100-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:37:20-45
 101                <action android:name="android.intent.action.VIEW" />
-101-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:17-69
-101-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:25-66
+101-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:17-69
+101-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:25-66
 102
 103                <category android:name="android.intent.category.DEFAULT" />
-103-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:17-76
-103-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:27-73
+103-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:17-76
+103-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:27-73
 104                <category android:name="android.intent.category.BROWSABLE" />
-104-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:17-78
-104-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:27-75
+104-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:17-78
+104-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:27-75
 105
 106                <data
-106-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+106-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 107                    android:host="artest.recipes.com"
-107-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+107-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 108                    android:pathPrefix="/" />
-108-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:57-79
+108-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:57-79
 109 —-
 110                <data android:host="artest.recipes.com" />
-110-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
-110-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+110-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
+110-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 111                <data android:scheme="https" />
-111-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+111-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 112            </intent-filter>
 113        </activity>
 114
 115        <provider
-115-->[:notifee_react-native] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:40
+115-->[:notifee_react-native] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:40
 116            android:name="io.invertase.notifee.NotifeeInitProvider"
-116-->[:notifee_react-native] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
+116-->[:notifee_react-native] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
 117            android:authorities="com.demoreducer.notifee-init-provider"
-117-->[:notifee_react-native] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-73
+117-->[:notifee_react-native] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-73
 118            android:exported="false"
-118-->[:notifee_react-native] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+118-->[:notifee_react-native] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 119            android:initOrder="-100" />
-119-->[:notifee_react-native] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+119-->[:notifee_react-native] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 120
 121        <service
-121-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
+121-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
 122            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-122-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
+122-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
 123            android:exported="false" />
-123-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+123-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
 124        <service
-124-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+124-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
 125            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-125-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+125-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
 126            android:exported="false" >
-126-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+126-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
 127            <intent-filter>
-127-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+127-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
 128                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-128-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
-128-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+128-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+128-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
 129            </intent-filter>
 130        </service>
 131
 132        <receiver
-132-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+132-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
 133            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-133-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+133-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
 134            android:exported="true"
-134-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+134-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
 135            android:permission="com.google.android.c2dm.permission.SEND" >
-135-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+135-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
 136            <intent-filter>
-136-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+136-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 137                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-137-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
-137-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+137-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+137-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
 138            </intent-filter>
 139        </receiver>
 140
 141        <meta-data
-141-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+141-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
 142            android:name="firebase_messaging_auto_init_enabled"
-142-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+142-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
 143            android:value="true" />
-143-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+143-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
 144        <meta-data
-144-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+144-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
 145            android:name="com.google.firebase.messaging.default_notification_channel_id"
-145-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+145-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
 146            android:value="" />
-146-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+146-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
 147        <meta-data
-147-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+147-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
 148            android:name="com.google.firebase.messaging.default_notification_color"
-148-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+148-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
 149            android:resource="@color/white" />
-149-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+149-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
 150        <meta-data
-150-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+150-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
 151            android:name="app_data_collection_default_enabled"
-151-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+151-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
 152            android:value="true" />
-152-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+152-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
 153
 154        <service
-154-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+154-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
 155            android:name="com.google.firebase.components.ComponentDiscoveryService"
-155-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+155-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
 156            android:directBootAware="true"
-156-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+156-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
 157            android:exported="false" >
-157-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+157-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 158            <meta-data
-158-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+158-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
 159                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-159-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+159-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
 160                android:value="com.google.firebase.components.ComponentRegistrar" />
-160-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+160-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
 161            <meta-data
 161-->[com.google.firebase:firebase-messaging:23.3.1] /home/bi1466/.gradle/caches/transforms-3/2e34fd9a8ed68103fb0e882cb2cd3c12/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
 162                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
@@ -359,65 +359,65 @@
 185        </service>
 186
 187        <provider
-187-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+187-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
 188            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-188-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+188-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
 189            android:authorities="com.demoreducer.reactnativefirebaseappinitprovider"
-189-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+189-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
 190            android:exported="false"
-190-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+190-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
 191            android:initOrder="99" />
-191-->[:react-native-firebase_app] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+191-->[:react-native-firebase_app] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
 192        <provider
-192-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+192-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 193            android:name="com.imagepicker.ImagePickerProvider"
-193-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+193-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
 194            android:authorities="com.demoreducer.imagepickerprovider"
-194-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+194-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
 195            android:exported="false"
-195-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+195-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 196            android:grantUriPermissions="true" >
-196-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+196-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
 197            <meta-data
-197-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+197-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
 198                android:name="android.support.FILE_PROVIDER_PATHS"
-198-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+198-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
 199                android:resource="@xml/imagepicker_provider_paths" />
-199-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+199-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 200        </provider>
 201        <provider
-201-->[:react-native-share] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+201-->[:react-native-share] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 202            android:name="cl.json.RNShareFileProvider"
-202-->[:react-native-share] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-55
+202-->[:react-native-share] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-55
 203            android:authorities="com.demoreducer.rnshare.fileprovider"
-203-->[:react-native-share] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-72
+203-->[:react-native-share] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-72
 204            android:exported="false"
-204-->[:react-native-share] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+204-->[:react-native-share] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 205            android:grantUriPermissions="true" >
-205-->[:react-native-share] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+205-->[:react-native-share] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
 206            <meta-data
-206-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+206-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
 207                android:name="android.support.FILE_PROVIDER_PATHS"
-207-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+207-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
 208                android:resource="@xml/share_download_paths" />
-208-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+208-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 209        </provider>
 210        <provider
-210-->[:react-native-webview] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+210-->[:react-native-webview] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 211            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-211-->[:react-native-webview] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+211-->[:react-native-webview] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
 212            android:authorities="com.demoreducer.fileprovider"
-212-->[:react-native-webview] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+212-->[:react-native-webview] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
 213            android:exported="false"
-213-->[:react-native-webview] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+213-->[:react-native-webview] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 214            android:grantUriPermissions="true" >
-214-->[:react-native-webview] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+214-->[:react-native-webview] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
 215            <meta-data
-215-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+215-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
 216                android:name="android.support.FILE_PROVIDER_PATHS"
-216-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+216-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
 217                android:resource="@xml/file_provider_paths" />
-217-->[:react-native-image-picker] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+217-->[:react-native-image-picker] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 218        </provider>
 219
 220        <activity
@@ -509,20 +509,20 @@
 263            <intent-filter>
 263-->[com.stripe:link:20.34.4] /home/bi1466/.gradle/caches/transforms-3/803fdefacdc8b6d309239648237af487/transformed/jetified-link-20.34.4/AndroidManifest.xml:20:13-30:29
 264                <action android:name="android.intent.action.VIEW" />
-264-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:17-69
-264-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:25-66
+264-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:17-69
+264-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:25-66
 265
 266                <category android:name="android.intent.category.DEFAULT" />
-266-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:17-76
-266-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:27-73
+266-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:17-76
+266-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:27-73
 267                <category android:name="android.intent.category.BROWSABLE" />
-267-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:17-78
-267-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:27-75
+267-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:17-78
+267-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:27-75
 268
 269                <data
-269-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+269-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 270                    android:host="complete"
-270-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+270-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 271                    android:path="/com.demoreducer"
 272                    android:scheme="link-popup" />
 273            </intent-filter>
@@ -604,21 +604,21 @@
 314            <intent-filter>
 314-->[com.stripe:payments-core:20.34.4] /home/bi1466/.gradle/caches/transforms-3/03dd13122389012f7fd5e12f04580caa/transformed/jetified-payments-core-20.34.4/AndroidManifest.xml:51:13-62:29
 315                <action android:name="android.intent.action.VIEW" />
-315-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:17-69
-315-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:25-66
+315-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:17-69
+315-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:25-66
 316
 317                <category android:name="android.intent.category.DEFAULT" />
-317-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:17-76
-317-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:27-73
+317-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:17-76
+317-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:27-73
 318                <category android:name="android.intent.category.BROWSABLE" />
-318-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:17-78
-318-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:27-75
+318-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:17-78
+318-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:27-75
 319
 320                <!-- Must match `DefaultReturnUrl#value`. -->
 321                <data
-321-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+321-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 322                    android:host="payment_return_url"
-322-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+322-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 323                    android:path="/com.demoreducer"
 324                    android:scheme="stripesdk" />
 325            </intent-filter>
@@ -681,10 +681,10 @@
 355            android:permission="com.google.android.c2dm.permission.SEND" >
 355-->[com.google.firebase:firebase-messaging:23.3.1] /home/bi1466/.gradle/caches/transforms-3/2e34fd9a8ed68103fb0e882cb2cd3c12/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
 356            <intent-filter>
-356-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+356-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 357                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-357-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
-357-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+357-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+357-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
 358            </intent-filter>
 359
 360            <meta-data
@@ -707,10 +707,10 @@
 371            android:exported="false" >
 371-->[com.google.firebase:firebase-messaging:23.3.1] /home/bi1466/.gradle/caches/transforms-3/2e34fd9a8ed68103fb0e882cb2cd3c12/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
 372            <intent-filter android:priority="-500" >
-372-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+372-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
 373                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-373-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
-373-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/demoReducer/demoReducer/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+373-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+373-->[:react-native-firebase_messaging] /home/bi1466/sowmiya/DishDelight_RN/client/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
 374            </intent-filter>
 375        </service>
 376        <service
@@ -774,64 +774,64 @@
 408            <intent-filter>
 408-->[com.stripe:financial-connections:20.34.4] /home/bi1466/.gradle/caches/transforms-3/8f8d488a8a74609edee2443332afb8af/transformed/jetified-financial-connections-20.34.4/AndroidManifest.xml:25:13-64:29
 409                <action android:name="android.intent.action.VIEW" />
-409-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:17-69
-409-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:38:25-66
+409-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:17-69
+409-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:38:25-66
 410
 411                <category android:name="android.intent.category.DEFAULT" />
-411-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:17-76
-411-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:39:27-73
+411-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:17-76
+411-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:39:27-73
 412                <category android:name="android.intent.category.BROWSABLE" />
-412-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:17-78
-412-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:40:27-75
+412-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:17-78
+412-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:40:27-75
 413
 414                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
 415                <data
-415-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+415-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 416                    android:host="link-accounts"
-416-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+416-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 417                    android:pathPrefix="/com.demoreducer/authentication_return"
-417-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:57-79
+417-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:57-79
 418                    android:scheme="stripe-auth" />
 419
 420                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
 421                <data
-421-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+421-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 422                    android:host="link-native-accounts"
-422-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+422-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 423                    android:pathPrefix="/com.demoreducer/authentication_return"
-423-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:57-79
+423-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:57-79
 424                    android:scheme="stripe-auth" />
 425
 426                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
 427                <data
-427-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+427-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 428                    android:host="link-accounts"
-428-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+428-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 429                    android:path="/com.demoreducer/success"
 430                    android:scheme="stripe-auth" />
 431                <data
-431-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+431-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 432                    android:host="link-accounts"
-432-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+432-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 433                    android:path="/com.demoreducer/cancel"
 434                    android:scheme="stripe-auth" />
 435
 436                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
 437                <data
-437-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+437-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 438                    android:host="native-redirect"
-438-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+438-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 439                    android:pathPrefix="/com.demoreducer"
-439-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:57-79
+439-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:57-79
 440                    android:scheme="stripe-auth" />
 441
 442                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
 443                <data
-443-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:17-82
+443-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:17-82
 444                    android:host="auth-redirect"
-444-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:23-56
+444-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:23-56
 445                    android:pathPrefix="/com.demoreducer"
-445-->/home/bi1466/sowmiya/demoReducer/demoReducer/client/android/app/src/main/AndroidManifest.xml:41:57-79
+445-->/home/bi1466/sowmiya/DishDelight_RN/client/android/app/src/main/AndroidManifest.xml:41:57-79
 446                    android:scheme="stripe" />
 447            </intent-filter>
 448        </activity>

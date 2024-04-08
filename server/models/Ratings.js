@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const {Schema} = mongoose;
+const mongoose = require("mongoose");
+const { Schema } = mongoose;
 
 const ratingSchema = new Schema(
   {
@@ -21,8 +21,11 @@ const ratingSchema = new Schema(
       type: String,
       required: true,
     },
+    userImage: {
+      type: String,
+    },
   },
-  {timestamps: true},
+  { timestamps: true }
 );
 
-module.exports = mongoose.model('ratingTable', ratingSchema);
+module.exports = mongoose.model("ratingTable", ratingSchema);

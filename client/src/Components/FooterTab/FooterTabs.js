@@ -1,56 +1,67 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import {colors} from '../../Common/colors';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-
-const FooterTabs = props => {
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import { colors } from "../../Common/colors";
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
+import AntDesign from "react-native-vector-icons/AntDesign";
+const FooterTabs = (props) => {
   const activeColor = colors.orange;
   const inActiveColor = colors.grey;
 
   switch (props.routeName) {
-    case 'home':
+    case "home":
       return (
         <View>
           <FontAwesome5
-            name={'home'}
+            name={"home"}
             size={25}
             color={props.isFocused ? activeColor : inActiveColor}
-            style={{marginBottom: 3, alignSelf: 'center'}}
+            style={{ marginBottom: 3, alignSelf: "center" }}
           />
         </View>
       );
 
-    case 'post':
+    case "save":
       return (
         <View>
-          <FontAwesome5
-            name={'plus-square'}
+          <AntDesign
+            name={props.isFocused ? "heart" : "hearto"}
             size={25}
             color={props.isFocused ? activeColor : inActiveColor}
-            style={{marginBottom: 3, alignSelf: 'center'}}
+            style={{ marginBottom: 3, alignSelf: "center" }}
           />
         </View>
       );
 
-    case 'links':
+    case "links":
       return (
         <View>
           <FontAwesome5
-            name={'list-ol'}
+            name={"list-ol"}
             size={25}
             color={props.isFocused ? activeColor : inActiveColor}
-            style={{marginBottom: 3, alignSelf: 'center'}}
+            style={{ marginBottom: 3, alignSelf: "center" }}
           />
         </View>
       );
-    case 'account':
+    case "uploadRes":
+      return (
+        <View>
+          <AntDesign
+            name={props.isFocused ? "cloudupload" : "clouduploado"}
+            size={25}
+            color={props.isFocused ? activeColor : inActiveColor}
+            style={{ marginBottom: 3, alignSelf: "center" }}
+          />
+        </View>
+      );
+    case "account":
       return (
         <View>
           <FontAwesome5
-            name={'user'}
+            name={"user"}
             size={25}
             color={props.isFocused ? activeColor : inActiveColor}
-            style={{marginBottom: 3, alignSelf: 'center'}}
+            style={{ marginBottom: 3, alignSelf: "center" }}
           />
         </View>
       );

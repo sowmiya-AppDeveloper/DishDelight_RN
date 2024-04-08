@@ -32,7 +32,6 @@ const Application = (props) => {
 
   const appWithoutBackground = async () => {
     const clickedUrl = await Linking.getInitialURL();
-    LOG("urlurlurl", clickedUrl);
 
     const containId = clickedUrl.includes("id");
     const containType = clickedUrl.includes("type");
@@ -60,29 +59,34 @@ const Application = (props) => {
         PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
         PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
         PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS,
-      ]).then((result) => {
-        if (
-          result["android.permission.CAMERA"] &&
-          result["android.permission.READ_EXTERNAL_STORAGE"] &&
-          result["android.permission.WRITE_EXTERNAL_STORAGE"] &&
-          result["android.permission.POST_NOTIFICATIONS"] === "granted"
-        ) {
-          LOG("Permissions_granted");
-          this.setState({
-            permissionsGranted: true,
-          });
-        } else if (
-          result["android.permission.CAMERA"] ||
-          result["android.permission.READ_EXTERNAL_STORAGE"] ||
-          result["android.permission.WRITE_EXTERNAL_STORAGE"] ||
-          result["android.permission.POST_NOTIFICATIONS"] === "never_ask_again"
-        ) {
-          LOG("Permissions_denied");
-          // BackHandler.exitApp();
-        } else {
-          LOG("PERMISSION ELSE CASE HANDLE HERE");
-        }
-      });
+      ])
+        .then((result) => {
+          if (
+            result["android.permission.CAMERA"] &&
+            result["android.permission.READ_EXTERNAL_STORAGE"] &&
+            result["android.permission.WRITE_EXTERNAL_STORAGE"] &&
+            result["android.permission.POST_NOTIFICATIONS"] === "granted"
+          ) {
+            LOG("Permissions_granted");
+            // this.setState({
+            //   permissionsGranted: true,
+            // });
+          } else if (
+            result["android.permission.CAMERA"] ||
+            result["android.permission.READ_EXTERNAL_STORAGE"] ||
+            result["android.permission.WRITE_EXTERNAL_STORAGE"] ||
+            result["android.permission.POST_NOTIFICATIONS"] ===
+              "never_ask_again"
+          ) {
+            LOG("Permissions_denied");
+            // BackHandler.exitApp();
+          } else {
+            LOG("PERMISSION ELSE CASE HANDLE HERE");
+          }
+        })
+        .catch((err) => {
+          LOG("permission granted in catch :", err);
+        });
     }
     // hardware back button handler
 
@@ -93,24 +97,28 @@ const Application = (props) => {
 
     ////////////////////////////////////////////////////
 
-    getItem("userDetails").then((userDetails) => {
-      if (userDetails) {
-        LOG(
-          "------------userDetails Found Auto Login--------- : " + userDetails
-        );
+    getItem("userDetails")
+      .then((userDetails) => {
+        if (userDetails) {
+          LOG(
+            "------------userDetails Found Auto Login--------- : " + userDetails
+          );
 
-        LOG("userDetails Found Auto Login : " + userDetails);
-        var cred = JSON.parse(userDetails);
+          LOG("userDetails Found Auto Login : " + userDetails);
+          var cred = JSON.parse(userDetails);
 
-        Dispatch(signIn(cred, false));
-        // Dispatch(initSpinner());
-      } else {
-        LOG("No userDetails FoundMAYBE");
-        setTimeout(() => {
-          navigation.navigate("signIn");
-        }, 2000);
-      }
-    });
+          Dispatch(signIn(cred, false));
+          // Dispatch(initSpinner());
+        } else {
+          LOG("No userDetails FoundMAYBE");
+          setTimeout(() => {
+            navigation.navigate("signIn");
+          }, 2000);
+        }
+      })
+      .catch((err) => {
+        LOG("while getting userDetails in catch : ", err);
+      });
 
     return () => backHandler.remove();
   }, []);
@@ -125,7 +133,7 @@ const Application = (props) => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("../../../Asserts/background3.2.png")}
+        source={require("../../../Asserts/Images/background3.2.png")}
         style={styles.backgroundImage}>
         <View style={styles.overlay}>
           <Text

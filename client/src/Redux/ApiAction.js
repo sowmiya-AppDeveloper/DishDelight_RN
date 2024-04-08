@@ -4,11 +4,11 @@ import {
   CUSTOM_SPINNER_ENABLE,
   GET_API_DATA,
   HTTP,
-} from '../Common/constant';
-import {LOG} from '../Common/utils';
+} from "../Common/constant";
+import { LOG } from "../Common/utils";
 
 export const initSpinner = () => {
-  return dispatch => {
+  return (dispatch) => {
     dispatch({
       type: CUSTOM_SPINNER_ENABLE,
     });
@@ -16,15 +16,15 @@ export const initSpinner = () => {
 };
 
 export const stopSpinner = () => {
-  return dispatch => {
+  return (dispatch) => {
     dispatch({
       type: CUSTOM_SPINNER_DISABLE,
     });
   };
 };
 
-export const getAllRecipesList = jsonData => {
-  return dispatch => {
+export const getAllRecipesList = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -34,8 +34,8 @@ export const getAllRecipesList = jsonData => {
   };
 };
 
-export const getUserImage = jsonData => {
-  return dispatch => {
+export const getUserImage = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -44,20 +44,31 @@ export const getUserImage = jsonData => {
     });
   };
 };
-export const uploadUserImage = jsonData => {
-  LOG('uploadUserImage', jsonData);
-  return dispatch => {
+export const uploadUserImage = (jsonData) => {
+  LOG("uploadUserImage", jsonData);
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
       requestUrl: HTTP.uploadUserImage,
       requestType: ActionConstants.UPLOAD_USER_IMAGE,
-      // multiPart: true,
+      multiPart: true,
     });
   };
 };
-export const getCategories = jsonData => {
-  return dispatch => {
+
+export const getUserImageInsideAccount = (jsonData) => {
+  return (dispatch) => {
+    dispatch({
+      type: GET_API_DATA,
+      jsonData: jsonData,
+      requestUrl: HTTP.getUserImage,
+      requestType: ActionConstants.GET_USER_IMAGE_ACCOUNT,
+    });
+  };
+};
+export const getCategories = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -66,8 +77,8 @@ export const getCategories = jsonData => {
     });
   };
 };
-export const getCategories2 = jsonData => {
-  return dispatch => {
+export const getCategories2 = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -77,18 +88,18 @@ export const getCategories2 = jsonData => {
   };
 };
 export const productRating = (jsonData, extraData) => {
-  return dispatch => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
-      requestUrl: HTTP.productRating,
-      requestType: ActionConstants.PRODUCT_RATING,
+      requestUrl: HTTP.updatedRating,
+      requestType: ActionConstants.UPDATE_RATING,
       extraData: extraData,
     });
   };
 };
-export const getProductRating = jsonData => {
-  return dispatch => {
+export const getProductRating = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -98,7 +109,7 @@ export const getProductRating = jsonData => {
   };
 };
 export const getAllReview = (jsonData, extraData) => {
-  return dispatch => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -108,8 +119,8 @@ export const getAllReview = (jsonData, extraData) => {
     });
   };
 };
-export const getRecommendationRating = jsonData => {
-  return dispatch => {
+export const getRecommendationRating = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -118,13 +129,33 @@ export const getRecommendationRating = jsonData => {
     });
   };
 };
-export const getSingleRecipeRequest = jsonData => {
-  return dispatch => {
+export const getSingleRecipeRequest = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
       requestUrl: HTTP.getSingleRecipe,
       requestType: ActionConstants.GET_SINGLE_RECIPE,
+    });
+  };
+};
+export const saveFavorites = (jsonData) => {
+  return (dispatch) => {
+    dispatch({
+      type: GET_API_DATA,
+      jsonData: jsonData,
+      requestUrl: HTTP.saveFavorites,
+      requestType: ActionConstants.SAVE_FAVORITES,
+    });
+  };
+};
+export const getFavoriteRecipe = (jsonData) => {
+  return (dispatch) => {
+    dispatch({
+      type: GET_API_DATA,
+      jsonData: jsonData,
+      requestUrl: HTTP.getFavRecipes,
+      requestType: ActionConstants.GET_FAV_RECIPES,
     });
   };
 };

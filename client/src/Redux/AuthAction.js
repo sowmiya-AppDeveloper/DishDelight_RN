@@ -3,11 +3,11 @@ import {
   GET_API_DATA,
   HTTP,
   RESET_REDUX_STORE,
-} from '../Common/constant';
-import {LOG} from '../Common/utils';
+} from "../Common/constant";
+import { LOG } from "../Common/utils";
 
-export const signUp = jsonData => {
-  return dispatch => {
+export const signUp = (jsonData) => {
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -17,9 +17,9 @@ export const signUp = jsonData => {
   };
 };
 
-export const signIn = jsonData => {
-  LOG('signUp', jsonData);
-  return dispatch => {
+export const signIn = (jsonData) => {
+  LOG("signUp", HTTP.signIn);
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -28,9 +28,9 @@ export const signIn = jsonData => {
     });
   };
 };
-export const forgotPassword = jsonData => {
-  LOG('forgotPassword', jsonData);
-  return dispatch => {
+export const forgotPassword = (jsonData) => {
+  LOG("forgotPassword", jsonData);
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -39,9 +39,9 @@ export const forgotPassword = jsonData => {
     });
   };
 };
-export const resetPassword = jsonData => {
-  LOG('resetPassword', jsonData);
-  return dispatch => {
+export const resetPassword = (jsonData) => {
+  LOG("resetPassword", jsonData);
+  return (dispatch) => {
     dispatch({
       type: GET_API_DATA,
       jsonData: jsonData,
@@ -52,7 +52,7 @@ export const resetPassword = jsonData => {
 };
 
 export const resetStore = () => {
-  return dispatch => {
+  return (dispatch) => {
     dispatch({
       type: RESET_REDUX_STORE,
     });

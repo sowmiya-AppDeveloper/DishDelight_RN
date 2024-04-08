@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const {Schema} = mongoose;
+const mongoose = require("mongoose");
+const { Schema } = mongoose;
 
 const categoriesRecipeSchema = new Schema(
   {
@@ -31,8 +31,12 @@ const categoriesRecipeSchema = new Schema(
       type: String,
       required: true,
     },
+    id: {
+      type: String,
+      required: true,
+    },
   },
-  {timestamps: true},
+  { timestamps: true }
 );
 
-module.exports = mongoose.model('categoriesRecipe', categoriesRecipeSchema);
+module.exports = mongoose.model("categoriesRecipe", categoriesRecipeSchema);

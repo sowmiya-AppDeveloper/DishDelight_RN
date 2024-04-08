@@ -1,80 +1,98 @@
 import {
   NavigationContainer,
+  TabActions,
   createNavigationContainerRef,
-} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import React, {useState} from 'react';
-import {Dimensions, StyleSheet, TouchableOpacity, View} from 'react-native';
-import ForgotPassword from '../App/ForgotPassword';
-import PostLink from '../App/PostLink';
-import SignIn from '../App/SignIn';
-import SignUp from '../App/SignUp';
-import {navigationRef} from '../Common/RootNavigation';
-import {getItem} from '../Common/utils';
-import HeaderTabs from '../Components/HeaderTabs';
-import Account from '../BottomScreens/Account/Account';
-import Home from '../BottomScreens/Home/Home';
-import Links from '../BottomScreens/Links';
-import Application from '../Screens/App/Application';
-import CategoryItem from '../Screens/Category/CategoryItem';
-import RecipeDescription from '../Screens/RecipeDescription';
-import FooterTabs from '../Components/FooterTab/FooterTabs';
-import {colors} from '../Common/colors';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {Text} from 'react-native';
-import {Divider} from 'react-native-elements';
-import RoutineItem from '../BottomScreens/Home/RoutineItem';
-import CategoriesDescription from '../Screens/Category/CategoriesDescription';
-import Review from '../Screens/Category/Review';
-import Chat from '../BottomScreens/Chat/Chat';
+} from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
+import { Divider } from "react-native-elements";
+import FooterTabs from "../Components/FooterTab/FooterTabs";
+
+import {
+  Dimensions,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import Home from "../Screens/BottomScreens/Home/Home";
+import Save from "../Screens/BottomScreens/Save/SaveItem";
+import Account from "../Screens/BottomScreens/Account/Account";
+import Links from "../Screens/BottomScreens/Link/Links";
+import Review from "../Screens/Category/Review";
+import RoutineItem from "../Screens/Recommentation/RoutineItem";
+import RecipeDescription from "../Screens/Recommentation/RecipeDescription";
+import CategoryItem from "../Screens/Category/CategoryItem";
+import { colors } from "../Common/colors";
+import { navigationRef } from "../Common/RootNavigation";
+import CategoriesDescription from "../Screens/Category/CategoriesDescription";
+import Chat from "../Screens/BottomScreens/Chat/Chat";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import ForgotPassword from "../App/ForgotPassword";
+import SignIn from "../App/SignIn";
+import SignUp from "../App/SignUp";
+import Application from "../Screens/App/Application";
+import UploadRecipe from "../Screens/BottomScreens/UploadRecipe/UploadRecipe";
 export const navigateRef = createNavigationContainerRef();
-const {width, height} = Dimensions.get('screen');
+const { width, height } = Dimensions.get("screen");
 const Router = () => {
   const stack = createNativeStackNavigator();
   const Tab = createBottomTabNavigator();
 
   const HomeTab = () => {
     return (
-      <Tab.Navigator tabBar={props => <HomeTabBar {...props} />}>
+      <Tab.Navigator tabBar={(props) => <HomeTabBar {...props} />}>
         <Tab.Screen
-          name={'home'}
+          name={"home"}
           component={Home}
           options={{
-            tabBarLabel: 'Home',
+            tabBarLabel: "Home",
             color: colors.orange,
             headerShown: false,
           }}
         />
 
         <Tab.Screen
-          name={'post'}
-          component={PostLink}
+          name={"save"}
+          component={Save}
           options={{
             headerRight: () => <HeaderTabs />,
-            tabBarLabel: 'Post',
+            tabBarLabel: "Save",
             color: colors.orange,
             headerShown: false,
           }}
         />
         <Tab.Screen
-          name={'links'}
+          name={"links"}
           component={Links}
           options={{
             headerRight: () => <HeaderTabs />,
-            tabBarLabel: 'Links',
+            tabBarLabel: "Links",
             color: colors.orange,
             headerShown: false,
           }}
         />
         <Tab.Screen
-          name={'account'}
+          name={"uploadRes"}
+          component={UploadRecipe}
+          options={{
+            headerRight: () => <HeaderTabs />,
+            tabBarLabel: "Upload",
+            headerBackVisible: false,
+            gestureEnabled: true,
+            navigationBarHidden: true,
+            headerShown: false,
+            animation: "slide_from_bottom",
+          }}
+        />
+        <Tab.Screen
+          name={"account"}
           component={Account}
           options={{
-            headerTitleAlign: 'center',
+            headerTitleAlign: "center",
 
             headerRight: () => <HeaderTabs />,
-            tabBarLabel: 'Account',
+            tabBarLabel: "Account",
             color: colors.orange,
             headerShown: false,
           }}
@@ -87,9 +105,9 @@ const Router = () => {
     <NavigationContainer ref={navigationRef}>
       <stack.Navigator initialRouteName="application">
         <stack.Screen
-          name={'application'}
+          name={"application"}
           component={Application}
-          options={{headerShown: false}}
+          options={{ headerShown: false }}
         />
         <stack.Screen
           options={{
@@ -97,7 +115,7 @@ const Router = () => {
             gestureEnabled: true,
             navigationBarHidden: true,
             headerShown: false,
-            animation: 'slide_from_bottom',
+            animation: "slide_from_bottom",
           }}
           name="home"
           component={HomeTab}
@@ -105,99 +123,99 @@ const Router = () => {
 
         <>
           <stack.Screen
-            name={'categories'}
+            name={"categories"}
             component={CategoryItem}
             options={{
               headerShown: false,
-              animation: 'slide_from_left',
+              animation: "slide_from_left",
             }}
           />
           <stack.Screen
-            name={'description'}
+            name={"description"}
             component={RecipeDescription}
             options={{
               headerShown: false,
-              animation: 'slide_from_left',
+              animation: "slide_from_left",
             }}
           />
         </>
 
         <>
           <stack.Screen
-            name={'signUp'}
+            name={"signUp"}
             component={SignUp}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
           <stack.Screen
-            name={'signIn'}
+            name={"signIn"}
             component={SignIn}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
           <stack.Screen
-            name={'forgot'}
+            name={"forgot"}
             component={ForgotPassword}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
           <stack.Screen
-            name={'routine'}
+            name={"routine"}
             component={RoutineItem}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
           <stack.Screen
-            name={'categoriesDescription'}
+            name={"categoriesDescription"}
             component={CategoriesDescription}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
           <stack.Screen
-            name={'reviewScreen'}
+            name={"reviewScreen"}
             component={Review}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
           <stack.Screen
-            name={'chat'}
+            name={"chat"}
             component={Chat}
             options={{
               headerBackVisible: false,
               gestureEnabled: true,
               navigationBarHidden: true,
               headerShown: false,
-              animation: 'slide_from_bottom',
+              animation: "slide_from_bottom",
             }}
           />
         </>
@@ -205,13 +223,13 @@ const Router = () => {
     </NavigationContainer>
   );
 };
-const HomeTabBar = ({state, descriptors, navigation}) => {
+const HomeTabBar = ({ state, descriptors, navigation }) => {
   return (
     <>
       <Divider width={1} />
       <View style={styles.customTabBar}>
         {state.routes.map((route, index) => {
-          const {options} = descriptors[route.key];
+          const { options } = descriptors[route.key];
           const label =
             options.tabBarLabel !== undefined
               ? options.tabBarLabel
@@ -223,7 +241,7 @@ const HomeTabBar = ({state, descriptors, navigation}) => {
 
           const onPress = () => {
             const event = navigation.emit({
-              type: 'tabPress',
+              type: "tabPress",
               target: route.key,
             });
 
@@ -234,7 +252,7 @@ const HomeTabBar = ({state, descriptors, navigation}) => {
 
           const onLongPress = () => {
             navigation.emit({
-              type: 'tabLongPress',
+              type: "tabLongPress",
               target: route.key,
             });
           };
@@ -242,7 +260,7 @@ const HomeTabBar = ({state, descriptors, navigation}) => {
             <TouchableOpacity
               key={index}
               accessibilityRole="button"
-              accessibilityStates={isFocused ? ['selected'] : []}
+              accessibilityStates={isFocused ? ["selected"] : []}
               accessibilityLabel={options.tabBarAccessibilityLabel}
               testID={options.tabBarTestID}
               onPress={onPress}
@@ -269,27 +287,27 @@ export default Router;
 
 const styles = StyleSheet.create({
   tabView: {
-    alignItems: 'center',
+    alignItems: "center",
     backgroundColor: colors.white,
     marginHorizontal: 5,
   },
   tabLabel: {
     fontSize: 12,
-    textAlign: 'center',
+    textAlign: "center",
     // fontFamily: textFontFace,
-    alignSelf: 'center',
+    alignSelf: "center",
   },
   customTabBar: {
-    flexDirection: 'row',
+    flexDirection: "row",
     // borderTopWidth: 1,
     // backgroundColor: colors.black,
     paddingVertical: 10,
     marginHorizontal: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-    alignSelf: 'center',
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "center",
     height: height / 10,
     width: width / 1,
   },
-  baseView: {flex: 1, alignItems: 'center'},
+  baseView: { flex: 1, alignItems: "center" },
 });

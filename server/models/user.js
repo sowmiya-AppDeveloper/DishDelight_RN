@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const {Schema} = mongoose;
+const mongoose = require("mongoose");
+const { Schema } = mongoose;
 
 const userSchema = new Schema(
   {
@@ -22,15 +22,14 @@ const userSchema = new Schema(
     },
     role: {
       type: String,
-      default: 'Subscriber',
+      default: "Subscriber",
     },
     image: {
-      public_id: '',
-      url: '',
+      type: String,
     },
-    resetCode: '',
+    resetCode: "",
   },
-  {timestamps: true},
+  { timestamps: true }
 );
 
-module.exports = mongoose.model('users', userSchema);
+module.exports = mongoose.model("users", userSchema);
