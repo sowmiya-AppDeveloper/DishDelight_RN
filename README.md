@@ -7,3 +7,5 @@
 
 Frontend: React Native for a smooth, cross-platform user experience.
 Backend: Node.js and MongoDB, ensuring scalability and efficient data management.
+![Sample Image](SplashScreen.png)
+![Sample Image](SignIn.png)![Sample Image](SignUp.png)![Sample Image](ForgotPassword.png)![Sample Image](HomeScreen.png)![Sample Image](DecriptionScreen.png)![Sample Image](DeepLinking.png)![Sample Image](Profile.png)
